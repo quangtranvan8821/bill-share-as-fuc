@@ -14,9 +14,9 @@
 </template>
 
 <script lang="ts">
-const {dishes } = defineProps({
-dish: {
-    type: Object, required: true
-}
+const { dishes } = defineProps({
+    dish: {
+        type: Object, required: true
+    }
 })
 </script>
